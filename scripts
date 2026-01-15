@@ -1,0 +1,30 @@
+function getMountainsInCountry(chosenCountry){
+    var matches = [];
+
+    for(var i = 0; i < country.length; i++){
+        if(country[i].toLowerCase().includes(chosenCountry.toLowerCase())){
+            matches.push(mountainName[i]);
+      
+        }
+    }
+
+    return matches;
+}
+
+console.log(getMountainsInCountry("nepal"));
+
+
+function getMountainsInRange(chosenRange){
+    var matches = [];
+
+    for(var i = 0; i < mountainRange.length; i++){
+        if(mountainRange[i].toLowerCase().includes(chosenRange.toLowerCase())){
+            matches.push(mountainName[i]);
+        }
+    }
+
+    return matches;
+}
+
+console.log(getMountainsInRange("jugal himalaya"));
+
