@@ -66,7 +66,7 @@ function getMountainsInRange(chosenRange){
         }
     }
 
- return 0
+ return "No matches found"
 }
 
 
@@ -84,7 +84,7 @@ function getMountainsHeight(mountain){
         return parseInt(heightInFeet[i]) + " feet"   
       } 
   }
- return 0  
+ return "No value found"  
 }
 
 
@@ -132,6 +132,11 @@ else{
 return (averageHeight/total) + " feet"
 }
 }
+
+
+
+
+
 
 
 
