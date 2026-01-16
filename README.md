@@ -10,13 +10,13 @@
  
  ##### Returns mountains in the chosen mountain range in the Himalayas
  ###### chosenRange {string} - the name of the mountain range to search for
- ###### return {list} - list of mountain names in that range
+ ###### return {list} - list of mountain names in that range or "No matches found" if there are no mountains
  **`function getMountainsInRange(chosenRange)`**
 #
 
 ##### Returns the height of the chosen mountain in feet in the Himalayas
  ###### mountain {string} - the desired mountain
- ###### return {string} - the height of the mountain in feet
+ ###### return {string} - the height of the mountain in feet or "No value found" if there is not mountain height
  **`function getMountainsHeight(mountain)`**
 #
 
@@ -28,6 +28,6 @@
 
 ##### Returns the average height of all the mountains in a country in the Himalayas
 ###### yourCountry {string} - the desired country
-###### return {string} - the average height of all the mountains in the country
+###### return {string} - the average height of all the mountains in the country or "No value found" if there is no average height
  **`function getAverageMountainHeight(yourCountry)`**
 #
