@@ -124,7 +124,13 @@ for (var i=0; i<country.length; i++){
         total ++
     }
 }
+if (averageHeight == 0){
+  return "No value found"
+}
+else{
 return (averageHeight/total) + " feet"
 }
+}
+
 
 
