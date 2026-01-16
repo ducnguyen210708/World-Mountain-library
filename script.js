@@ -30,11 +30,12 @@ var heightInFeet = getColumn(url, 4)
 var mountainRange = getColumn(url, 6)
 var country = getColumn(url, 11)
 
+
 //1
 /* 
 returns mountains in the chosen country
 chosenCountry {string} - the name of the country to search for
-return {list} - list of mountain names in that country
+return {list} - list of mountain names in that country or "No matches found" if there are no mountains
 */
 function getMountainsInCountry(chosenCountry){
     var matches = [];
@@ -53,10 +54,12 @@ function getMountainsInCountry(chosenCountry){
    return matches;
 }
 
+
+
 //2
 /*returns mountains in the chosen mountain range
 chosenRange {string} - the name of the mountain range to search for
-return {list} - list of mountain names in that range
+return {list} - list of mountain names in that range or "No matches found" if there are no mountains
 */
 
 function getMountainsInRange(chosenRange){
@@ -79,7 +82,7 @@ function getMountainsInRange(chosenRange){
 /* 
 returns the height of the chosen mountain in feet
 mountain {string} - the desired mountain
-return {string} - the height of the mountain in feet
+return {string} - the height of the mountain in feet or "No value found" if there is not a mountain height 
 */
 function getMountainsHeight(mountain){
   for (var i=0; i<mountainName.length; i++){
@@ -117,7 +120,7 @@ return lowest
 /* 
 returns the average height of all the mountains in a country
 yourCountry {string} - the desired country
-return {string} - the average height of all the mountains in the country
+return {string} - the average height of all the mountains in the country or "No value found" if there is no average height
 */
 function getAverageMountainHeight(yourCountry){
     var averageHeight= 0;
@@ -135,6 +138,10 @@ else{
 return (averageHeight/total) + " feet"
 }
 }
+
+
+
+
 
 
 
