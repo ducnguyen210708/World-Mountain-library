@@ -42,13 +42,16 @@ function getMountainsInCountry(chosenCountry){
     for(var i = 0; i < country.length; i++){
         if(country[i].toLowerCase().includes(chosenCountry.toLowerCase())){
             matches.push(mountainName[i]);
-      
+  
         }
-    }
+        if (matches.length ==0){
+          return "No matches found";
+        }
+  
+      }
 
-    return matches;
+   return matches;
 }
-
 
 //2
 /*returns mountains in the chosen mountain range
