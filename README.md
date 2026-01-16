@@ -1,5 +1,6 @@
 # Himalayan Mountain Library
 Mountains from the countries India, Pakistan, China, Nepal, Bhutan, Tajikistan, Afghanistan, and Kyrgyzstan.
+Mountains Range: Annapurna Himalaya, Assam Himalaya, Baiku Himalaya, Baltoro Karakoram, Batura Karakoram, Dhaulagiri Himalaya, Daxue Mountains (Hengduan Shan), Ganesh Himalaya, Garhwal Himalaya, Hispar Karakoram, Hindu Kush, Jugal Himalaya, Kangchenjunga Himalaya, Kongur Shan (Eastern Pamirs), Kula Kangri Himalaya, Labuche Himalaya, Langtang Himalaya, Lunana Himalaya, Mahalangur Himalaya, Manaslu Himalaya, Masherbrum Karakoram, Nagarze Himalaya, Nalakankar Himalaya, Nanga Parbat Himalaya, Panmah Karakoram, Pamir (Academy of Sciences Range), Rakaposhi-Haramosh Karakoram, Rimo Karakoram, Saltoro Karakoram, Saser Karakoram, Siachen Karakoram, Tian Shan, Yengisogat Karakoram, Muztagata (Eastern Pamirs).
  #
 
 ##### Returns mountains in the chosen country in the Himalayas
